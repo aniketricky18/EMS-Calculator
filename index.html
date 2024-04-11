@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Sales Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EMS Drug Sale Calculator</h1>
+        <div class="item">
+            <label for="bandages">Bandages ($55 each):</label>
+            <input type="number" id="bandages" min="0">
+        </div>
+        <div class="item">
+            <label for="stressPills">Stress Pills ($300 each):</label>
+            <input type="number" id="stressPills" min="0">
+        </div>
+        <div class="item">
+            <label for="painkillers">Painkillers ($350 each):</label>
+            <input type="number" id="painkillers" min="0">
+        </div>
+        <div class="item">
+            <label for="discount">Discount (%):</label>
+            <input type="number" id="discount" min="0" max="100">
+        </div>
+        <div class="item">
+            <label for="tax">Tax (%):</label>
+            <input type="number" id="tax" min="0">
+        </div>
+        <button onclick="calculateTotal()">Calculate Total</button>
+        <div class="result">
+            <h2>Total Amount:</h2>
+            <p id="totalAmount">$0.00</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
