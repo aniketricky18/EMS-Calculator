@@ -1,7 +1,7 @@
 function calculateTotal() {
-    const bandagePrice = 55;
-    const stressPillPrice = 300;
-    const painkillerPrice = 350;
+    const bandagePrice = 100;
+    const stressPillPrice = 450;
+    const painkillerPrice = 450;
 
     const bandagesCount = parseInt(document.getElementById('bandages').value) || 0;
     const stressPillsCount = parseInt(document.getElementById('stressPills').value) || 0;
