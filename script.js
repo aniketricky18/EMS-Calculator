@@ -1,6 +1,6 @@
 function calculateTotal() {
-    const bandagePrice = 100;
-    const stressPillPrice = 450;
+    const bandagePrice = 250;
+    const stressPillPrice = 500;
     const painkillerPrice = 450;
 
     const bandagesCount = parseInt(document.getElementById('bandages').value) || 0;
